@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    background-color: #587293;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list li {
+    list-style: none;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.menu-list li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.title {
+    margin: 20px;
+    padding: 20px;
+}
+
+.personal {
+    margin: 50px auto;
+    font-size: 1rem;
+    height: 100%;
+
+}
+
+.personal p {
+    margin: 20px;
+}
+
+.avatar {
+    margin-bottom: 50px;
+}
+
+.avatar img {
+    width: 20%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information>.resume,
+.projects {
+    border-radius: 10px;
+}
+
+.button {
+    margin-top: 20px;
+    border: none;
+    border-radius: 15px;
+    background: #ccdae0;
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.resume {
+    background-color: #f1b65c;
+    /* height: 300px; */
+    /* width: 200px; */
+    /* flex-basis: 300px; */
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+.projects {
+    background-color: #97c5de;
+    /* height: 300px;
+    width: 200px; */
+    /* flex-basis: 300px; */
+    margin: 0 50px 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.connect {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact {
+    width: 50%;
+    padding: 48px;
+}
+
+form {
+    width: 50%;
+    /* padding: 48px; */
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+    background-color: #55645e;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+.footer-container a {
+    color: white;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+    padding: 20px 0;
+}
